@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  background-color: #fafafa;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.main {
+  display: grid;
+  grid-template-columns:
+    [full-start] minmax(200px, 1fr) [center-start]repeat(
+      12,
+      [col-start]minmax(min-content, 120px) [col-end]
+    )
+    [center-end] minmax(100px, 1fr) [full-end];
+  grid-template-rows: min-content calc(100vh - 120px) 100vh;
+}
