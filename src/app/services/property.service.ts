@@ -10,6 +10,7 @@ import {
 import { PropertyModel } from '../models/property.model';
 import { data } from '../models/rantedProperties';
 import { data2 } from '../models/notRantedProperties';
+import { Observable, from, map } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -61,5 +62,30 @@ export class PropertyService {
     await batch.commit();
 
     console.log(`Done!`);
+  }
+
+  getRentedProperties(): Observable<PropertyModel[]> {
+    return from(getDocs(this.rentedFlatCollectionRef)).pipe(
+      map((snapshot) => {
+        const resultList = snapshot.docs.map((doc) => {
+          const rentedFlatData: PropertyModel = doc.data() as PropertyModel;
+          rentedFlatData.id = doc.id;
+          return rentedFlatData;
+        });
+        return resultList;
+      })
+    );
+  }
+  getNotRentedProperties(): Observable<PropertyModel[]> {
+    return from(getDocs(this.notRentedFlatCollectionRef)).pipe(
+      map((snapshot) => {
+        const resultList = snapshot.docs.map((doc) => {
+          const notRentedFlatData: PropertyModel = doc.data() as PropertyModel;
+          notRentedFlatData.id = doc.id;
+          return notRentedFlatData;
+        });
+        return resultList;
+      })
+    );
   }
 }

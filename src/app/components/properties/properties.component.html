@@ -1,1 +1,31 @@
-<p>properties works!</p>
+<div class="container">
+  <div class="row justify-content-center g-4">
+    <div class="col-md-3" *ngFor="let property of allProperties$ | async">
+      <div class="card">
+        <img [src]="property.imgUrl" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{ property.title }}</h5>
+          <p class="card-text">
+            {{ property.city }}
+          </p>
+          <p class="card-text">
+            {{ property.address }}
+          </p>
+          <p class="card-text">
+            {{ property.size }}
+          </p>
+          <p class="card-text">
+            {{ property.rooms }}
+          </p>
+          <p class="card-text">
+            {{ property.isPetsAllowed ? "🐶" : "🤡" }}
+          </p>
+          <p class="card-text">
+            {{ property.isRented ? "✅" : "❌" }}
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -7,7 +7,7 @@ export const data2: PropertyModel[] = [
     address: '75342 Eagan Alley',
     size: 55,
     rooms: 6,
-    isRented: false,
+
     isPetsAllowed: false,
     imgUrl: 'https://source.unsplash.com/600x400/?apartment,building',
   },
@@ -17,7 +17,7 @@ export const data2: PropertyModel[] = [
     address: '258 Orin Center',
     size: 64,
     rooms: 4,
-    isRented: false,
+
     isPetsAllowed: true,
     imgUrl: 'https://source.unsplash.com/600x400/?living-room,home',
   },
@@ -27,7 +27,7 @@ export const data2: PropertyModel[] = [
     address: '3862 Forster Junction',
     size: 115,
     rooms: 6,
-    isRented: false,
+
     isPetsAllowed: false,
     imgUrl: 'https://source.unsplash.com/600x400/?cityscape,city',
   },
@@ -37,7 +37,7 @@ export const data2: PropertyModel[] = [
     address: '15 Schlimgen Terrace',
     size: 72,
     rooms: 2,
-    isRented: false,
+
     isPetsAllowed: true,
     imgUrl: 'https://source.unsplash.com/600x400/?bedroom,interior',
   },
@@ -47,7 +47,7 @@ export const data2: PropertyModel[] = [
     address: '2824 Browning Trail',
     size: 84,
     rooms: 4,
-    isRented: false,
+
     isPetsAllowed: true,
     imgUrl: 'https://source.unsplash.com/600x400/?architecture,building',
   },
@@ -57,7 +57,7 @@ export const data2: PropertyModel[] = [
     address: '33710 International Trail',
     size: 88,
     rooms: 1,
-    isRented: false,
+
     isPetsAllowed: false,
     imgUrl: 'https://source.unsplash.com/600x400/?apartment,modern',
   },
@@ -67,7 +67,7 @@ export const data2: PropertyModel[] = [
     address: '93457 Sundown Trail',
     size: 107,
     rooms: 4,
-    isRented: false,
+
     isPetsAllowed: true,
     imgUrl: 'https://source.unsplash.com/600x400/?building,office',
   },
@@ -77,7 +77,7 @@ export const data2: PropertyModel[] = [
     address: '03 Lake View Center',
     size: 75,
     rooms: 6,
-    isRented: false,
+
     isPetsAllowed: true,
     imgUrl: 'https://source.unsplash.com/600x400/?urban,street',
   },
@@ -87,7 +87,7 @@ export const data2: PropertyModel[] = [
     address: '4013 Alpine Court',
     size: 85,
     rooms: 3,
-    isRented: false,
+
     isPetsAllowed: true,
     imgUrl: 'https://source.unsplash.com/600x400/?mountain,landscape',
   },
@@ -97,7 +97,7 @@ export const data2: PropertyModel[] = [
     address: '881 Erie Pass',
     size: 119,
     rooms: 4,
-    isRented: false,
+
     isPetsAllowed: false,
     imgUrl: 'https://source.unsplash.com/600x400/?building,skyscraper',
   },
@@ -107,7 +107,7 @@ export const data2: PropertyModel[] = [
     address: '333 Shopko Hill',
     size: 109,
     rooms: 3,
-    isRented: false,
+
     isPetsAllowed: false,
     imgUrl: 'https://source.unsplash.com/600x400/?nature,water',
   },
@@ -117,7 +117,7 @@ export const data2: PropertyModel[] = [
     address: '1467 Pawling Circle',
     size: 116,
     rooms: 5,
-    isRented: false,
+
     isPetsAllowed: true,
     imgUrl: 'https://source.unsplash.com/600x400/?architecture,home',
   },
@@ -127,7 +127,7 @@ export const data2: PropertyModel[] = [
     address: '372 Rigney Trail',
     size: 28,
     rooms: 5,
-    isRented: false,
+
     isPetsAllowed: false,
     imgUrl: 'https://source.unsplash.com/600x400/?urban,cityscape',
   },
@@ -137,7 +137,7 @@ export const data2: PropertyModel[] = [
     address: '794 Westerfield Junction',
     size: 41,
     rooms: 1,
-    isRented: false,
+
     isPetsAllowed: false,
     imgUrl: 'https://source.unsplash.com/600x400/?apartment,building',
   },
@@ -147,7 +147,7 @@ export const data2: PropertyModel[] = [
     address: '5 Crowley Circle',
     size: 102,
     rooms: 5,
-    isRented: false,
+
     isPetsAllowed: false,
     imgUrl: 'https://source.unsplash.com/600x400/?living-room,home',
   },
@@ -157,7 +157,7 @@ export const data2: PropertyModel[] = [
     address: '7846 Old Shore Court',
     size: 56,
     rooms: 2,
-    isRented: false,
+
     isPetsAllowed: false,
     imgUrl: 'https://source.unsplash.com/600x400/?bedroom,furniture',
   },
@@ -167,7 +167,7 @@ export const data2: PropertyModel[] = [
     address: '903 Delladonna Parkway',
     size: 59,
     rooms: 3,
-    isRented: false,
+
     isPetsAllowed: true,
     imgUrl: 'https://source.unsplash.com/600x400/?city,skyline',
   },
