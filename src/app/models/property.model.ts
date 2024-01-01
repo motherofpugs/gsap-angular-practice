@@ -6,4 +6,5 @@ export interface PropertyModel {
   rooms: number;
   isRented: boolean;
   isPetsAllowed: boolean;
+  imgUrl: string;
 }

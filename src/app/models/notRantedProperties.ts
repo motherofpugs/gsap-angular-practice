@@ -9,6 +9,7 @@ export const data2: PropertyModel[] = [
     rooms: 6,
     isRented: false,
     isPetsAllowed: false,
+    imgUrl: 'https://source.unsplash.com/600x400/?apartment,building',
   },
   {
     title: 'Apt 991',
@@ -18,6 +19,7 @@ export const data2: PropertyModel[] = [
     rooms: 4,
     isRented: false,
     isPetsAllowed: true,
+    imgUrl: 'https://source.unsplash.com/600x400/?living-room,home',
   },
   {
     title: 'Suite 53',
@@ -27,6 +29,7 @@ export const data2: PropertyModel[] = [
     rooms: 6,
     isRented: false,
     isPetsAllowed: false,
+    imgUrl: 'https://source.unsplash.com/600x400/?cityscape,city',
   },
   {
     title: 'Room 501',
@@ -36,6 +39,7 @@ export const data2: PropertyModel[] = [
     rooms: 2,
     isRented: false,
     isPetsAllowed: true,
+    imgUrl: 'https://source.unsplash.com/600x400/?bedroom,interior',
   },
   {
     title: 'Room 53',
@@ -45,6 +49,7 @@ export const data2: PropertyModel[] = [
     rooms: 4,
     isRented: false,
     isPetsAllowed: true,
+    imgUrl: 'https://source.unsplash.com/600x400/?architecture,building',
   },
   {
     title: 'Room 74',
@@ -54,6 +59,7 @@ export const data2: PropertyModel[] = [
     rooms: 1,
     isRented: false,
     isPetsAllowed: false,
+    imgUrl: 'https://source.unsplash.com/600x400/?apartment,modern',
   },
   {
     title: 'PO Box 22384',
@@ -63,6 +69,7 @@ export const data2: PropertyModel[] = [
     rooms: 4,
     isRented: false,
     isPetsAllowed: true,
+    imgUrl: 'https://source.unsplash.com/600x400/?building,office',
   },
   {
     title: '16th Floor',
@@ -72,6 +79,7 @@ export const data2: PropertyModel[] = [
     rooms: 6,
     isRented: false,
     isPetsAllowed: true,
+    imgUrl: 'https://source.unsplash.com/600x400/?urban,street',
   },
   {
     title: 'Room 1488',
@@ -81,6 +89,7 @@ export const data2: PropertyModel[] = [
     rooms: 3,
     isRented: false,
     isPetsAllowed: true,
+    imgUrl: 'https://source.unsplash.com/600x400/?mountain,landscape',
   },
   {
     title: 'PO Box 88460',
@@ -90,6 +99,7 @@ export const data2: PropertyModel[] = [
     rooms: 4,
     isRented: false,
     isPetsAllowed: false,
+    imgUrl: 'https://source.unsplash.com/600x400/?building,skyscraper',
   },
   {
     title: 'Apt 1280',
@@ -99,6 +109,7 @@ export const data2: PropertyModel[] = [
     rooms: 3,
     isRented: false,
     isPetsAllowed: false,
+    imgUrl: 'https://source.unsplash.com/600x400/?nature,water',
   },
   {
     title: 'Suite 71',
@@ -108,6 +119,7 @@ export const data2: PropertyModel[] = [
     rooms: 5,
     isRented: false,
     isPetsAllowed: true,
+    imgUrl: 'https://source.unsplash.com/600x400/?architecture,home',
   },
   {
     title: 'Apt 688',
@@ -117,6 +129,7 @@ export const data2: PropertyModel[] = [
     rooms: 5,
     isRented: false,
     isPetsAllowed: false,
+    imgUrl: 'https://source.unsplash.com/600x400/?urban,cityscape',
   },
   {
     title: 'Suite 98',
@@ -126,6 +139,7 @@ export const data2: PropertyModel[] = [
     rooms: 1,
     isRented: false,
     isPetsAllowed: false,
+    imgUrl: 'https://source.unsplash.com/600x400/?apartment,building',
   },
   {
     title: 'Suite 26',
@@ -135,6 +149,7 @@ export const data2: PropertyModel[] = [
     rooms: 5,
     isRented: false,
     isPetsAllowed: false,
+    imgUrl: 'https://source.unsplash.com/600x400/?living-room,home',
   },
   {
     title: '1st Floor',
@@ -144,6 +159,7 @@ export const data2: PropertyModel[] = [
     rooms: 2,
     isRented: false,
     isPetsAllowed: false,
+    imgUrl: 'https://source.unsplash.com/600x400/?bedroom,furniture',
   },
   {
     title: '5th Floor',
@@ -153,5 +169,6 @@ export const data2: PropertyModel[] = [
     rooms: 3,
     isRented: false,
     isPetsAllowed: true,
+    imgUrl: 'https://source.unsplash.com/600x400/?city,skyline',
   },
 ];
