@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "gsap-angular-practice",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

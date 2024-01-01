@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "gsap-angular-practice": {
+      "hosting": {
+        "gsap-angular-practice": [
+          "gsap-angular-practice"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "gsap-angular-practice"
+  }
+}

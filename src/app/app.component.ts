@@ -1,3 +1,5 @@
+import { initializeApp } from '@angular/fire/app';
+import { PropertyService } from './services/property.service';
 import { DOCUMENT } from '@angular/common';
 import {
   Component,
@@ -28,9 +30,13 @@ export class AppComponent implements OnInit {
   @ViewChild('imageSecond', { static: true })
   imageSecond!: ElementRef<HTMLDivElement>;
 
-  constructor(@Inject(DOCUMENT) private document: Document) {}
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private propertyService: PropertyService
+  ) {}
   ngOnInit(): void {
     this.inititalAnimations(), this.initScrollAnimations();
+    this.propertyService.initializeDb();
   }
 
   initScrollAnimations(): void {
