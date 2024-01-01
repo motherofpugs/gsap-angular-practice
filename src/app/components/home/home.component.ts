@@ -46,9 +46,9 @@ export class HomeComponent {
       scale: 1.2,
       height: 380,
     });
-    gsap.to(this.document.querySelector('heading-1'), {
+    gsap.to(this.document.querySelector('.heading-1'), {
       scrollTrigger: {
-        trigger: this.document.querySelector('heading-1'),
+        trigger: this.document.querySelector('.heading-1'),
         scrub: true,
         start: '150% center',
       },
@@ -129,9 +129,9 @@ export class HomeComponent {
 
       opacity: 0,
     });
-    gsap.from(this.document.querySelector('.info-1__visual .heading-3'), {
+    gsap.from(this.document.querySelector('.heading-3'), {
       scrollTrigger: {
-        trigger: this.document.querySelector('.info-1__visual .heading-3'),
+        trigger: this.document.querySelector('.heading-3'),
         scrub: true,
         toggleClass: 'active',
         start: '-60% bottom',
@@ -140,9 +140,9 @@ export class HomeComponent {
       y: 40,
       opacity: 0,
     });
-    gsap.from(this.document.querySelector('.info-1__visual .btn--learn'), {
+    gsap.from(this.document.querySelector('.btn--learn'), {
       scrollTrigger: {
-        trigger: this.document.querySelector('.info-1__visual .btn--learn'),
+        trigger: this.document.querySelector('.btn--learn'),
         scrub: true,
         toggleClass: 'active',
         start: '-60% bottom',

@@ -29,7 +29,7 @@ export class NavComponent {
       delay: 0.5,
     });
     gsap.from(this.menuSecond.nativeElement.childNodes, {
-      duration: 0.5,
+      duration: 1,
       opacity: 0,
       y: -20,
       stagger: 0.2,

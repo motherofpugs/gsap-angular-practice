@@ -14,10 +14,16 @@
           <p class="card-text">{{ property.size }} m²</p>
           <p class="card-text">{{ property.rooms }} rooms</p>
           <p class="card-text">
-            {{ property.isPetsAllowed ? "🐶" : "🤡" }}
+            {{ property.isPetsAllowed ? "Pets allowed🐶" : "🤡" }}
           </p>
-          <p class="card-text">
-            {{ property.isRented ? "✅" : "❌" }}
+          <p
+            class="card-text"
+            [ngClass]="{
+              'text-success': property.isRented,
+              'text-danger': !property.isRented
+            }"
+          >
+            {{ property.isRented ? "Available✅" : "Unavailable❌" }}
           </p>
           <a href="#" class="btn btn-custom mt-2">See more</a>
         </div>
